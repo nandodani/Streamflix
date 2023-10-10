@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%- include("../partials/head") %>
+</head>
+
+<body class="body">
+  <header>
+    <%- include('../partials/nav'); %>
+  </header>
+  <form action="/movies" method="post" class= "d-flex col-9 mx-auto">
+    <input class="search" name="searchmo" id ="searchmo" type="text" placeholder="Procure um filme..." aria-label="Search">  
+  </form>
+
+  <div id="tags">
+    <div class="tag">
+    </div>
+  </div>
+  
+
+  <main id="main">
+    <%- include("../partials/movies/scard_movies") %>
+
+  </main>
+
+  <footer>
+    <%- include('../partials/footer'); %>
+  </footer>
+  <script src="http://localhost:3000/js/jquery.slim.min.js"></script>
+  <script src="http://localhost:3000/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+

@@ -1,0 +1,31 @@
+{
+  "name": "projeto_final",
+  "version": "1.0.0",
+  "description": "Projeto Final para a Unidade Curricular de Programação 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "projetofinal",
+    "p2",
+    "js",
+    "node",
+    "streamings",
+    "ismt"
+  ],
+  "author": "nandodani, guibras",
+  "license": "MIT",
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "mysql2": "^2.3.3",
+    "node": "^17.1.0",
+    "nodemon": "^2.0.15"
+  }
+}

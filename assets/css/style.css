@@ -1,0 +1,168 @@
+/* Geral */
+*{
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+}
+
+.body {
+    background-color: #1b262c;
+   
+}
+
+
+
+
+/* Home com Login */
+
+.main { 
+    background-color: #1b262c;
+    position: relative;
+    margin-bottom: 20em;
+}
+
+.h2-home{
+    color: white;
+    margin-top: 3vh;
+    margin-left: 7vh;
+}
+
+.hr-home{
+    margin-left: 7vh;
+    background-color: white;
+    width: 35vh;
+    border-bottom: solid 0.5vh #3282b8;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+
+/* Index */
+ .body-index{background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 83%, rgba(32,46,55,1) 92%, rgba(36,42,48,1) 100%);
+}
+
+
+
+
+/* Página User */
+.body-user {
+        background-color: rgb(233, 233, 233);
+}
+
+.main-user{
+    margin-left: 25em;
+}
+
+.li-streamings h6{
+    text-align: left;
+}
+
+
+
+/* Login e SignUp */
+
+.body-login{
+
+    background-color: #1b262c;
+}
+
+
+/*--------------------------------------------------------------*/
+
+/*CARDS COM FILMES E SÉRIES*/
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.movie img{
+    width: 100%;
+}
+.movie{
+    width: 300px;
+    margin: 1rem;
+    border-radius: 1em;
+    box-shadow: 0.2px 4px 5px #0f4c75;
+    background-color: #151b1f;
+    position: relative;
+    overflow: hidden;
+}
+
+.movie:hover {
+    box-shadow: 0.2em 0.2em 2em #0f4c75;
+    transition: 0.5s;
+}
+
+.movie-info{
+    color: white;
+    display:block;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.movie-info h3{
+    margin-top: 0.2em;
+    margin-left: 0.5em;
+}
+.overview .rating{
+    margin-bottom: 0;
+    float: right;
+    background-color: #1b262c;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5em;
+    text-align: center;
+
+
+}
+.overview{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #151b1f;
+    color: white;
+    padding: 0rem 1rem 1rem 1rem;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+.movie:hover .overview{
+    transform: translateY(0);
+    padding-top: 1em;
+    transition: 0.9s;
+
+}
+
+
+/* Search Bar */
+
+
+        .search {
+            width: 80vw;
+            border-radius: 30px;
+            margin: auto;
+            padding: 10px 10px 10px 30px;
+            background-color: #243036;
+            border: 1px solid white;
+            color: white;
+            background-image: url("/images/icons/search.svg");
+            background-repeat: no-repeat;
+            background-position: 10px 14px;
+        }
+
+        .search:focus {
+            background-color: #0f4c75;
+            border: 1px solid #3282b8;
+            transition: linear 0.5s;
+
+        }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <%- include("../partials/head") %>
+</head>
+
+<body class="body-user">
+  <div class="wrapper">
+    <%- include("../partials/user/nav_user") %>
+      <div id="content">
+        <div class="container col-8">
+          <div class="main-body pt-4">
+            <h1 class="py-3" id="account"> Definições de conta </h1>
+            <div class="row gutters-sm">
+              <%- include("../partials/user/card_topo") %>
+
+                <%- include("../partials/user/card_conta") %>
+
+             
+            </div>
+          </div>
+          
+          </div>
+        </div>
+      </div>
+  </div>
+  <script src="http://localhost:3000/js/jquery.slim.min.js"></script>
+  <script src="http://localhost:3000/js/bootstrap.min.js"></script>
+</body>
+
+</html>
